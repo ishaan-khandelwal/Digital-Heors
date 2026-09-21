@@ -69,17 +69,17 @@ function writeDB(data: DBShape): void {
 // ---------------------------------------------------------------------------
 // NEON SQL MODE (production)
 // ---------------------------------------------------------------------------
-// Lazy-load the Neon Pool for standard parameterized queries
+// Serverless-native Neon HTTP client using fetch (no WebSocket or Pool overhead)
+// eslint-disable-next-line @typescript-eslint/no-explicit-any
+let _neonClient: any = null;
+
 async function sql<T = Record<string, unknown>>(query: string, params: unknown[] = []): Promise<T[]> {
-  const { Pool, neonConfig } = await import('@neondatabase/serverless');
-  // eslint-disable-next-line @typescript-eslint/no-require-imports
-  const ws = require('ws');
-  neonConfig.webSocketConstructor = ws;
-  const pool = new Pool({ connectionString: process.env.DATABASE_URL! });
-  // eslint-disable-next-line @typescript-eslint/no-explicit-any
-  const result = await (pool.query as any)(query, params);
-  await pool.end();
-  return result.rows as T[];
+  if (!_neonClient) {
+    const { neon } = await import('@neondatabase/serverless');
+    _neonClient = neon(process.env.DATABASE_URL!);
+  }
+  const result = await _neonClient.query(query, params);
+  return result as T[];
 }
 
 // ---------------------------------------------------------------------------
