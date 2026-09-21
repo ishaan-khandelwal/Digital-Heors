@@ -1,0 +1,196 @@
+.signupCard {
+  max-width: 520px !important;
+}
+
+.steps {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0;
+  margin-bottom: var(--space-4);
+}
+
+.stepRow {
+  display: flex;
+  align-items: center;
+  gap: 0;
+}
+
+.stepDot {
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  background: var(--color-surface-raised);
+  border: 2px solid var(--color-border-strong);
+  color: var(--color-text-muted);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: var(--font-size-sm);
+  font-weight: 700;
+  transition: all var(--transition-base);
+  flex-shrink: 0;
+}
+
+.stepDotActive {
+  border-color: var(--color-terracotta);
+  color: var(--color-terracotta);
+  background: var(--color-terracotta-dim);
+}
+
+.stepDotDone {
+  background: var(--color-terracotta);
+  border-color: var(--color-terracotta);
+  color: white;
+}
+
+.stepName {
+  font-size: var(--font-size-xs);
+  font-weight: 600;
+  color: var(--color-text-muted);
+  margin: 0 var(--space-2);
+  white-space: nowrap;
+}
+
+.stepNameActive {
+  color: var(--color-text-primary);
+}
+
+.stepLine {
+  width: 40px;
+  height: 2px;
+  background: var(--color-border);
+}
+
+.stepContent {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-5);
+}
+
+/* Plan selection */
+.planCards {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: var(--space-4);
+}
+
+.planCard {
+  position: relative;
+  background: var(--color-surface-raised);
+  border: 2px solid var(--color-border);
+  border-radius: var(--radius-lg);
+  padding: var(--space-6);
+  cursor: pointer;
+  transition: all var(--transition-base);
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-2);
+  font-family: var(--font-family);
+}
+
+.planCard:hover {
+  border-color: var(--color-border-strong);
+}
+
+.planCardActive {
+  border-color: var(--color-terracotta) !important;
+  background: var(--color-terracotta-dim);
+}
+
+.planBadge {
+  position: absolute;
+  top: -10px;
+  right: 12px;
+  background: var(--color-sage);
+  color: #1a2a1a;
+  font-size: var(--font-size-xs);
+  font-weight: 700;
+  padding: 0.15rem 0.5rem;
+  border-radius: var(--radius-full);
+}
+
+.planName {
+  font-size: var(--font-size-sm);
+  font-weight: 700;
+  color: var(--color-text-secondary);
+}
+
+.planPrice {
+  font-size: var(--font-size-2xl);
+  font-weight: 800;
+  color: var(--color-text-primary);
+  letter-spacing: -0.03em;
+}
+
+.planPrice span {
+  font-size: var(--font-size-sm);
+  font-weight: 400;
+  color: var(--color-text-muted);
+}
+
+.planDesc {
+  font-size: var(--font-size-xs);
+  color: var(--color-text-muted);
+}
+
+/* Charity list */
+.charityList {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-2);
+  max-height: 240px;
+  overflow-y: auto;
+}
+
+.charityOption {
+  background: var(--color-surface-raised);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-md);
+  padding: var(--space-3) var(--space-4);
+  cursor: pointer;
+  font-family: var(--font-family);
+  font-size: var(--font-size-sm);
+  font-weight: 500;
+  color: var(--color-text-secondary);
+  text-align: left;
+  display: flex;
+  align-items: center;
+  gap: var(--space-3);
+  transition: all var(--transition-fast);
+}
+
+.charityOption:hover {
+  border-color: var(--color-border-strong);
+  color: var(--color-text-primary);
+}
+
+.charityOptionActive {
+  border-color: var(--color-sage);
+  background: var(--color-sage-dim);
+  color: var(--color-text-primary);
+}
+
+.charityCheck {
+  color: var(--color-sage);
+  font-size: 0.75rem;
+}
+
+.percentRow {
+  background: var(--color-surface-raised);
+  border-radius: var(--radius-md);
+  padding: var(--space-4);
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-3);
+}
+
+.percentRow strong {
+  color: var(--color-sage);
+}
+
+.btnRow {
+  display: flex;
+  gap: var(--space-3);
+}

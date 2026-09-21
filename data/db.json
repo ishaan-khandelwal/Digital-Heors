@@ -1,0 +1,846 @@
+{
+  "users": [
+    {
+      "id": "usr-001",
+      "email": "player@digitalheroes.com",
+      "name": "James Mitchell",
+      "passwordHash": "d5f6a7f1d727f9a6d881422ba68025167900710a41a8b8cdaf4758398e5c1bc4",
+      "role": "subscriber",
+      "subscription": {
+        "plan": "monthly",
+        "status": "active",
+        "renewalDate": "2026-10-21",
+        "price": 19.99,
+        "startDate": "2026-01-21"
+      },
+      "charityId": "ch-001",
+      "charityPercent": 15,
+      "totalWon": 240,
+      "joinedAt": "2026-01-21",
+      "avatarInitials": "JM"
+    },
+    {
+      "id": "usr-002",
+      "email": "admin@digitalheroes.com",
+      "name": "Sarah Chen",
+      "passwordHash": "6051fc84a7a0d74c225fb18a496b09952da5642e60723ecae543298edd7d82d6",
+      "role": "admin",
+      "subscription": null,
+      "charityId": null,
+      "charityPercent": 0,
+      "totalWon": 0,
+      "joinedAt": "2025-12-01",
+      "avatarInitials": "SC"
+    },
+    {
+      "id": "usr-003",
+      "email": "tom.walker@example.com",
+      "name": "Tom Walker",
+      "passwordHash": "9b8769a4a742959a2d0298c36fb70623f2dfacda8436237df08d8dfd5b37374c",
+      "role": "subscriber",
+      "subscription": {
+        "plan": "yearly",
+        "status": "active",
+        "renewalDate": "2027-03-15",
+        "price": 14.99,
+        "startDate": "2026-03-15"
+      },
+      "charityId": "ch-002",
+      "charityPercent": 10,
+      "totalWon": 0,
+      "joinedAt": "2026-03-15",
+      "avatarInitials": "TW"
+    },
+    {
+      "id": "usr-004",
+      "email": "amy.james@example.com",
+      "name": "Amy James",
+      "passwordHash": "9b8769a4a742959a2d0298c36fb70623f2dfacda8436237df08d8dfd5b37374c",
+      "role": "subscriber",
+      "subscription": {
+        "plan": "monthly",
+        "status": "active",
+        "renewalDate": "2026-10-08",
+        "price": 19.99,
+        "startDate": "2026-02-08"
+      },
+      "charityId": "ch-004",
+      "charityPercent": 20,
+      "totalWon": 350,
+      "joinedAt": "2026-02-08",
+      "avatarInitials": "AJ"
+    },
+    {
+      "id": "usr-005",
+      "email": "david.harris@example.com",
+      "name": "David Harris",
+      "passwordHash": "9b8769a4a742959a2d0298c36fb70623f2dfacda8436237df08d8dfd5b37374c",
+      "role": "subscriber",
+      "subscription": {
+        "plan": "yearly",
+        "status": "active",
+        "renewalDate": "2026-09-01",
+        "price": 14.99,
+        "startDate": "2025-09-01"
+      },
+      "charityId": "ch-003",
+      "charityPercent": 10,
+      "totalWon": 0,
+      "joinedAt": "2025-09-01",
+      "avatarInitials": "DH"
+    },
+    {
+      "id": "usr-006",
+      "email": "lisa.patel@example.com",
+      "name": "Lisa Patel",
+      "passwordHash": "9b8769a4a742959a2d0298c36fb70623f2dfacda8436237df08d8dfd5b37374c",
+      "role": "subscriber",
+      "subscription": {
+        "plan": "monthly",
+        "status": "active",
+        "renewalDate": "2026-10-14",
+        "price": 19.99,
+        "startDate": "2026-04-14"
+      },
+      "charityId": "ch-001",
+      "charityPercent": 25,
+      "totalWon": 120,
+      "joinedAt": "2026-04-14",
+      "avatarInitials": "LP"
+    },
+    {
+      "id": "usr-007",
+      "email": "mark.oconnor@example.com",
+      "name": "Mark O'Connor",
+      "passwordHash": "9b8769a4a742959a2d0298c36fb70623f2dfacda8436237df08d8dfd5b37374c",
+      "role": "subscriber",
+      "subscription": {
+        "plan": "monthly",
+        "status": "active",
+        "renewalDate": "2026-10-19",
+        "price": 19.99,
+        "startDate": "2026-05-19"
+      },
+      "charityId": "ch-006",
+      "charityPercent": 10,
+      "totalWon": 0,
+      "joinedAt": "2026-05-19",
+      "avatarInitials": "MO"
+    },
+    {
+      "id": "usr-008",
+      "email": "zara.ahmed@example.com",
+      "name": "Zara Ahmed",
+      "passwordHash": "9b8769a4a742959a2d0298c36fb70623f2dfacda8436237df08d8dfd5b37374c",
+      "role": "subscriber",
+      "subscription": {
+        "plan": "yearly",
+        "status": "active",
+        "renewalDate": "2027-06-30",
+        "price": 14.99,
+        "startDate": "2026-06-30"
+      },
+      "charityId": "ch-005",
+      "charityPercent": 30,
+      "totalWon": 0,
+      "joinedAt": "2026-06-30",
+      "avatarInitials": "ZA"
+    },
+    {
+      "id": "usr-1789999500343",
+      "email": "ishaankhandelwal2007@gmail.com",
+      "name": "Ishaan Khandelwal",
+      "passwordHash": "d50ee9d7db09e79feafd7cf680827aae7eba899802b528f14a09da59c7eca56e",
+      "role": "subscriber",
+      "subscription": {
+        "plan": "monthly",
+        "status": "active",
+        "renewalDate": "2026-10-21",
+        "price": 19.99,
+        "startDate": "2026-09-21"
+      },
+      "charityId": "ch-001",
+      "charityPercent": 34,
+      "totalWon": 0,
+      "joinedAt": "2026-09-21",
+      "avatarInitials": "IK"
+    },
+    {
+      "id": "usr-1789999998942",
+      "email": "test@hero.com",
+      "name": "Test Hero",
+      "passwordHash": "ecd71870d1963316a97e3ac3408c9835ad8cf0f3c1bc703527c30265534f75ae",
+      "role": "subscriber",
+      "subscription": {
+        "plan": "monthly",
+        "status": "active",
+        "renewalDate": "2026-10-21",
+        "price": 19.99,
+        "startDate": "2026-09-21"
+      },
+      "charityId": "ch-001",
+      "charityPercent": 10,
+      "totalWon": 0,
+      "joinedAt": "2026-09-21",
+      "avatarInitials": "TH"
+    }
+  ],
+  "scores": [
+    {
+      "id": "sc-001",
+      "userId": "usr-001",
+      "score": 32,
+      "date": "2026-09-15",
+      "createdAt": "2026-09-15T10:30:00Z"
+    },
+    {
+      "id": "sc-002",
+      "userId": "usr-001",
+      "score": 28,
+      "date": "2026-09-08",
+      "createdAt": "2026-09-08T09:15:00Z"
+    },
+    {
+      "id": "sc-003",
+      "userId": "usr-001",
+      "score": 35,
+      "date": "2026-09-01",
+      "createdAt": "2026-09-01T14:00:00Z"
+    },
+    {
+      "id": "sc-004",
+      "userId": "usr-001",
+      "score": 30,
+      "date": "2026-08-22",
+      "createdAt": "2026-08-22T11:45:00Z"
+    },
+    {
+      "id": "sc-005",
+      "userId": "usr-001",
+      "score": 27,
+      "date": "2026-08-15",
+      "createdAt": "2026-08-15T08:30:00Z"
+    },
+    {
+      "id": "sc-006",
+      "userId": "usr-003",
+      "score": 22,
+      "date": "2026-09-14",
+      "createdAt": "2026-09-14T10:00:00Z"
+    },
+    {
+      "id": "sc-007",
+      "userId": "usr-003",
+      "score": 25,
+      "date": "2026-09-07",
+      "createdAt": "2026-09-07T09:00:00Z"
+    },
+    {
+      "id": "sc-008",
+      "userId": "usr-003",
+      "score": 20,
+      "date": "2026-08-31",
+      "createdAt": "2026-08-31T12:00:00Z"
+    },
+    {
+      "id": "sc-009",
+      "userId": "usr-003",
+      "score": 28,
+      "date": "2026-08-24",
+      "createdAt": "2026-08-24T11:00:00Z"
+    },
+    {
+      "id": "sc-010",
+      "userId": "usr-003",
+      "score": 24,
+      "date": "2026-08-17",
+      "createdAt": "2026-08-17T10:00:00Z"
+    },
+    {
+      "id": "sc-011",
+      "userId": "usr-004",
+      "score": 38,
+      "date": "2026-09-16",
+      "createdAt": "2026-09-16T08:00:00Z"
+    },
+    {
+      "id": "sc-012",
+      "userId": "usr-004",
+      "score": 35,
+      "date": "2026-09-09",
+      "createdAt": "2026-09-09T09:00:00Z"
+    },
+    {
+      "id": "sc-013",
+      "userId": "usr-004",
+      "score": 32,
+      "date": "2026-09-02",
+      "createdAt": "2026-09-02T10:00:00Z"
+    },
+    {
+      "id": "sc-014",
+      "userId": "usr-004",
+      "score": 36,
+      "date": "2026-08-26",
+      "createdAt": "2026-08-26T11:00:00Z"
+    },
+    {
+      "id": "sc-015",
+      "userId": "usr-004",
+      "score": 33,
+      "date": "2026-08-19",
+      "createdAt": "2026-08-19T12:00:00Z"
+    },
+    {
+      "id": "sc-016",
+      "userId": "usr-006",
+      "score": 29,
+      "date": "2026-09-13",
+      "createdAt": "2026-09-13T10:00:00Z"
+    },
+    {
+      "id": "sc-017",
+      "userId": "usr-006",
+      "score": 31,
+      "date": "2026-09-06",
+      "createdAt": "2026-09-06T09:00:00Z"
+    },
+    {
+      "id": "sc-018",
+      "userId": "usr-006",
+      "score": 27,
+      "date": "2026-08-30",
+      "createdAt": "2026-08-30T10:00:00Z"
+    },
+    {
+      "id": "sc-019",
+      "userId": "usr-006",
+      "score": 33,
+      "date": "2026-08-23",
+      "createdAt": "2026-08-23T11:00:00Z"
+    },
+    {
+      "id": "sc-020",
+      "userId": "usr-006",
+      "score": 28,
+      "date": "2026-08-16",
+      "createdAt": "2026-08-16T12:00:00Z"
+    },
+    {
+      "id": "sc-021",
+      "userId": "usr-007",
+      "score": 18,
+      "date": "2026-09-12",
+      "createdAt": "2026-09-12T10:00:00Z"
+    },
+    {
+      "id": "sc-022",
+      "userId": "usr-007",
+      "score": 22,
+      "date": "2026-09-05",
+      "createdAt": "2026-09-05T09:00:00Z"
+    },
+    {
+      "id": "sc-023",
+      "userId": "usr-007",
+      "score": 20,
+      "date": "2026-08-29",
+      "createdAt": "2026-08-29T10:00:00Z"
+    },
+    {
+      "id": "sc-024",
+      "userId": "usr-007",
+      "score": 25,
+      "date": "2026-08-22",
+      "createdAt": "2026-08-22T11:00:00Z"
+    },
+    {
+      "id": "sc-025",
+      "userId": "usr-007",
+      "score": 19,
+      "date": "2026-08-15",
+      "createdAt": "2026-08-15T12:00:00Z"
+    },
+    {
+      "id": "sc-026",
+      "userId": "usr-008",
+      "score": 41,
+      "date": "2026-09-17",
+      "createdAt": "2026-09-17T10:00:00Z"
+    },
+    {
+      "id": "sc-027",
+      "userId": "usr-008",
+      "score": 38,
+      "date": "2026-09-10",
+      "createdAt": "2026-09-10T09:00:00Z"
+    },
+    {
+      "id": "sc-028",
+      "userId": "usr-008",
+      "score": 40,
+      "date": "2026-09-03",
+      "createdAt": "2026-09-03T10:00:00Z"
+    },
+    {
+      "id": "sc-029",
+      "userId": "usr-008",
+      "score": 35,
+      "date": "2026-08-27",
+      "createdAt": "2026-08-27T11:00:00Z"
+    },
+    {
+      "id": "sc-030",
+      "userId": "usr-008",
+      "score": 39,
+      "date": "2026-08-20",
+      "createdAt": "2026-08-20T12:00:00Z"
+    },
+    {
+      "id": "sc-1789999533710",
+      "userId": "usr-1789999500343",
+      "score": 35,
+      "date": "2026-09-21",
+      "createdAt": "2026-09-21T14:05:33.710Z"
+    },
+    {
+      "id": "sc-1789999547995",
+      "userId": "usr-1789999500343",
+      "score": 28,
+      "date": "2026-09-20",
+      "createdAt": "2026-09-21T14:05:47.995Z"
+    },
+    {
+      "id": "sc-1789999628961",
+      "userId": "usr-1789999500343",
+      "score": 45,
+      "date": "2026-09-19",
+      "createdAt": "2026-09-21T14:07:08.961Z"
+    },
+    {
+      "id": "sc-1789999634839",
+      "userId": "usr-1789999500343",
+      "score": 4,
+      "date": "2026-09-18",
+      "createdAt": "2026-09-21T14:07:14.839Z"
+    },
+    {
+      "id": "sc-1789999641449",
+      "userId": "usr-1789999500343",
+      "score": 45,
+      "date": "2026-09-17",
+      "createdAt": "2026-09-21T14:07:21.450Z"
+    }
+  ],
+  "drawEntries": [
+    {
+      "id": "de-001",
+      "drawId": "drw-001",
+      "userId": "usr-001",
+      "userName": "James Mitchell",
+      "numbersEntered": [
+        32,
+        28,
+        35,
+        30,
+        27
+      ],
+      "matchCount": 5,
+      "matchedNumbers": [
+        32,
+        28,
+        35,
+        30,
+        27
+      ],
+      "tierWon": "5-match",
+      "prizeAmount": 479.76
+    },
+    {
+      "id": "de-002",
+      "drawId": "drw-001",
+      "userId": "usr-004",
+      "userName": "Amy James",
+      "numbersEntered": [
+        38,
+        35,
+        32,
+        36,
+        33
+      ],
+      "matchCount": 4,
+      "matchedNumbers": [
+        35,
+        32,
+        27,
+        28
+      ],
+      "tierWon": "4-match",
+      "prizeAmount": 209.9
+    },
+    {
+      "id": "de-003",
+      "drawId": "drw-001",
+      "userId": "usr-006",
+      "userName": "Lisa Patel",
+      "numbersEntered": [
+        29,
+        31,
+        27,
+        33,
+        28
+      ],
+      "matchCount": 3,
+      "matchedNumbers": [
+        28,
+        27,
+        35
+      ],
+      "tierWon": "3-match",
+      "prizeAmount": 99.95
+    },
+    {
+      "id": "de-004",
+      "drawId": "drw-001",
+      "userId": "usr-003",
+      "userName": "Tom Walker",
+      "numbersEntered": [
+        22,
+        25,
+        20,
+        28,
+        24
+      ],
+      "matchCount": 3,
+      "matchedNumbers": [
+        28,
+        27,
+        30
+      ],
+      "tierWon": "3-match",
+      "prizeAmount": 99.95
+    },
+    {
+      "id": "de-005",
+      "drawId": "drw-001",
+      "userId": "usr-008",
+      "userName": "Zara Ahmed",
+      "numbersEntered": [
+        41,
+        38,
+        40,
+        35,
+        39
+      ],
+      "matchCount": 1,
+      "matchedNumbers": [
+        35
+      ],
+      "tierWon": null,
+      "prizeAmount": 0
+    },
+    {
+      "id": "de-sim-drw-003-0",
+      "drawId": "drw-003",
+      "userId": "usr-008",
+      "userName": "Zara Ahmed",
+      "numbersEntered": [
+        41,
+        38,
+        40,
+        35,
+        39
+      ],
+      "matchCount": 2,
+      "matchedNumbers": [
+        40,
+        35
+      ],
+      "tierWon": null,
+      "prizeAmount": 0
+    },
+    {
+      "id": "de-sim-drw-003-1",
+      "drawId": "drw-003",
+      "userId": "usr-1789999500343",
+      "userName": "Ishaan Khandelwal",
+      "numbersEntered": [
+        35,
+        28,
+        45,
+        4,
+        45
+      ],
+      "matchCount": 1,
+      "matchedNumbers": [
+        35
+      ],
+      "tierWon": null,
+      "prizeAmount": 0
+    },
+    {
+      "id": "de-sim-drw-002-0",
+      "drawId": "drw-002",
+      "userId": "usr-008",
+      "userName": "Zara Ahmed",
+      "numbersEntered": [
+        41,
+        38,
+        40,
+        35,
+        39
+      ],
+      "matchCount": 0,
+      "matchedNumbers": [],
+      "tierWon": null,
+      "prizeAmount": 0
+    },
+    {
+      "id": "de-sim-drw-002-1",
+      "drawId": "drw-002",
+      "userId": "usr-1789999500343",
+      "userName": "Ishaan Khandelwal",
+      "numbersEntered": [
+        35,
+        28,
+        45,
+        4,
+        45
+      ],
+      "matchCount": 1,
+      "matchedNumbers": [
+        28
+      ],
+      "tierWon": null,
+      "prizeAmount": 0
+    },
+    {
+      "id": "de-sim-drw-1790004801898-0",
+      "drawId": "drw-1790004801898",
+      "userId": "usr-008",
+      "userName": "Zara Ahmed",
+      "numbersEntered": [
+        41,
+        38,
+        40,
+        35,
+        39
+      ],
+      "matchCount": 0,
+      "matchedNumbers": [],
+      "tierWon": null,
+      "prizeAmount": 0
+    },
+    {
+      "id": "de-sim-drw-1790004801898-1",
+      "drawId": "drw-1790004801898",
+      "userId": "usr-1789999500343",
+      "userName": "Ishaan Khandelwal",
+      "numbersEntered": [
+        35,
+        28,
+        45,
+        4,
+        45
+      ],
+      "matchCount": 0,
+      "matchedNumbers": [],
+      "tierWon": null,
+      "prizeAmount": 0
+    },
+    {
+      "id": "de-sim-drw-1790004863858-0",
+      "drawId": "drw-1790004863858",
+      "userId": "usr-001",
+      "userName": "James Mitchell",
+      "numbersEntered": [
+        32,
+        28,
+        35,
+        30,
+        27
+      ],
+      "matchCount": 0,
+      "matchedNumbers": [],
+      "tierWon": null,
+      "prizeAmount": 0
+    },
+    {
+      "id": "de-sim-drw-1790004863858-1",
+      "drawId": "drw-1790004863858",
+      "userId": "usr-003",
+      "userName": "Tom Walker",
+      "numbersEntered": [
+        22,
+        25,
+        20,
+        28,
+        24
+      ],
+      "matchCount": 0,
+      "matchedNumbers": [],
+      "tierWon": null,
+      "prizeAmount": 0
+    },
+    {
+      "id": "de-sim-drw-1790004863858-2",
+      "drawId": "drw-1790004863858",
+      "userId": "usr-004",
+      "userName": "Amy James",
+      "numbersEntered": [
+        38,
+        35,
+        32,
+        36,
+        33
+      ],
+      "matchCount": 0,
+      "matchedNumbers": [],
+      "tierWon": null,
+      "prizeAmount": 0
+    },
+    {
+      "id": "de-sim-drw-1790004863858-3",
+      "drawId": "drw-1790004863858",
+      "userId": "usr-005",
+      "userName": "David Harris",
+      "numbersEntered": [],
+      "matchCount": 0,
+      "matchedNumbers": [],
+      "tierWon": null,
+      "prizeAmount": 0
+    },
+    {
+      "id": "de-sim-drw-1790004863858-4",
+      "drawId": "drw-1790004863858",
+      "userId": "usr-006",
+      "userName": "Lisa Patel",
+      "numbersEntered": [
+        29,
+        31,
+        27,
+        33,
+        28
+      ],
+      "matchCount": 0,
+      "matchedNumbers": [],
+      "tierWon": null,
+      "prizeAmount": 0
+    },
+    {
+      "id": "de-sim-drw-1790004863858-5",
+      "drawId": "drw-1790004863858",
+      "userId": "usr-007",
+      "userName": "Mark O'Connor",
+      "numbersEntered": [
+        18,
+        22,
+        20,
+        25,
+        19
+      ],
+      "matchCount": 0,
+      "matchedNumbers": [],
+      "tierWon": null,
+      "prizeAmount": 0
+    },
+    {
+      "id": "de-sim-drw-1790004863858-6",
+      "drawId": "drw-1790004863858",
+      "userId": "usr-008",
+      "userName": "Zara Ahmed",
+      "numbersEntered": [
+        41,
+        38,
+        40,
+        35,
+        39
+      ],
+      "matchCount": 2,
+      "matchedNumbers": [
+        41,
+        39
+      ],
+      "tierWon": null,
+      "prizeAmount": 0
+    },
+    {
+      "id": "de-sim-drw-1790004863858-7",
+      "drawId": "drw-1790004863858",
+      "userId": "usr-1789999500343",
+      "userName": "Ishaan Khandelwal",
+      "numbersEntered": [
+        35,
+        28,
+        45,
+        4,
+        45
+      ],
+      "matchCount": 0,
+      "matchedNumbers": [],
+      "tierWon": null,
+      "prizeAmount": 0
+    },
+    {
+      "id": "de-sim-drw-1790004863858-8",
+      "drawId": "drw-1790004863858",
+      "userId": "usr-1789999998942",
+      "userName": "Test Hero",
+      "numbersEntered": [],
+      "matchCount": 0,
+      "matchedNumbers": [],
+      "tierWon": null,
+      "prizeAmount": 0
+    }
+  ],
+  "winnerVerifications": [
+    {
+      "id": "wv-001",
+      "drawId": "drw-001",
+      "drawMonth": "August 2026",
+      "userId": "usr-001",
+      "userName": "James Mitchell",
+      "userEmail": "player@digitalheroes.com",
+      "prizeAmount": 479.76,
+      "matchTier": "5-match",
+      "proofImageUrl": "https://picsum.photos/seed/proof1/600/400",
+      "status": "approved",
+      "payoutStatus": "paid",
+      "adminNotes": "Verified against handicap system screenshot. Scores confirmed.",
+      "submittedAt": "2026-09-01T09:00:00Z",
+      "reviewedAt": "2026-09-02T11:00:00Z"
+    },
+    {
+      "id": "wv-002",
+      "drawId": "drw-001",
+      "drawMonth": "August 2026",
+      "userId": "usr-004",
+      "userName": "Amy James",
+      "userEmail": "amy.james@example.com",
+      "prizeAmount": 209.9,
+      "matchTier": "4-match",
+      "proofImageUrl": "https://picsum.photos/seed/proof2/600/400",
+      "status": "rejected",
+      "payoutStatus": "pending",
+      "adminNotes": "",
+      "submittedAt": "2026-09-01T14:00:00Z",
+      "reviewedAt": "2026-09-21T14:14:47.538Z"
+    },
+    {
+      "id": "wv-003",
+      "drawId": "drw-001",
+      "drawMonth": "August 2026",
+      "userId": "usr-006",
+      "userName": "Lisa Patel",
+      "userEmail": "lisa.patel@example.com",
+      "prizeAmount": 99.95,
+      "matchTier": "3-match",
+      "proofImageUrl": null,
+      "status": "pending",
+      "payoutStatus": "pending",
+      "adminNotes": "",
+      "submittedAt": null,
+      "reviewedAt": null
+    }
+  ]
+}

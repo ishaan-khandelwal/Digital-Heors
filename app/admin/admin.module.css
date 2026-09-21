@@ -1,0 +1,224 @@
+.layout {
+  display: flex;
+  min-height: 100vh;
+  background: var(--color-bg);
+}
+
+/* --- Sidebar --- */
+.sidebar {
+  width: var(--sidebar-width);
+  background: var(--color-surface);
+  border-right: 1px solid var(--color-border);
+  display: flex;
+  flex-direction: column;
+  padding: var(--space-6);
+  position: sticky;
+  top: 0;
+  height: 100vh;
+  overflow-y: auto;
+  flex-shrink: 0;
+}
+
+.logo {
+  font-size: var(--font-size-lg);
+  font-weight: 800;
+  letter-spacing: -0.02em;
+  color: var(--color-text-primary);
+  text-decoration: none;
+  display: block;
+  margin-bottom: var(--space-3);
+}
+
+.adminBadge {
+  display: inline-block;
+  background: var(--color-terracotta-dim);
+  color: var(--color-terracotta);
+  font-size: var(--font-size-xs);
+  font-weight: 700;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  padding: 0.25rem 0.625rem;
+  border-radius: var(--radius-full);
+  margin-bottom: var(--space-6);
+  border-bottom: 1px solid var(--color-border);
+  padding-bottom: var(--space-6);
+  display: block;
+  width: fit-content;
+  margin-bottom: var(--space-2);
+}
+
+.nav {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-1);
+  flex: 1;
+  margin-top: var(--space-6);
+}
+
+.navBtn {
+  display: flex;
+  align-items: center;
+  gap: var(--space-3);
+  padding: var(--space-3) var(--space-4);
+  border-radius: var(--radius-md);
+  border: none;
+  background: transparent;
+  color: var(--color-text-muted);
+  font-family: var(--font-family);
+  font-size: var(--font-size-sm);
+  font-weight: 500;
+  cursor: pointer;
+  transition: all var(--transition-fast);
+  text-align: left;
+  width: 100%;
+}
+
+.navBtn:hover {
+  background: var(--color-surface-raised);
+  color: var(--color-text-primary);
+}
+
+.navBtnActive {
+  background: var(--color-terracotta-dim);
+  color: var(--color-terracotta);
+  font-weight: 600;
+}
+
+.badge {
+  margin-left: auto;
+  background: var(--color-warning);
+  color: #1a1a00;
+  font-size: var(--font-size-xs);
+  font-weight: 700;
+  padding: 0.1rem 0.4rem;
+  border-radius: var(--radius-full);
+}
+
+.sidebarBottom {
+  padding-top: var(--space-6);
+  border-top: 1px solid var(--color-border);
+}
+
+.userInfo {
+  display: flex;
+  align-items: center;
+  gap: var(--space-3);
+  margin-bottom: var(--space-2);
+}
+
+/* --- Main --- */
+.main {
+  flex: 1;
+  overflow-y: auto;
+  padding: var(--space-8);
+  min-width: 0;
+}
+
+.pageTitle {
+  font-size: var(--font-size-3xl);
+  font-weight: 800;
+  letter-spacing: -0.03em;
+  margin-bottom: var(--space-2);
+}
+
+.pageSubtitle {
+  color: var(--color-text-muted);
+  font-size: var(--font-size-base);
+}
+
+.tabHeader {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: var(--space-4);
+}
+
+/* --- Draw Config --- */
+.drawConfig {
+  border-color: var(--color-border-strong) !important;
+}
+
+/* --- Simulation Result --- */
+.simResult {
+  border-color: var(--color-gold) !important;
+  background: var(--color-gold-dim) !important;
+}
+
+/* Tier Cards */
+.tierCard {
+  background: var(--color-surface);
+  border: 1px solid;
+  border-radius: var(--radius-lg);
+  padding: var(--space-5);
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-2);
+}
+
+.tierMatch {
+  font-size: var(--font-size-xs);
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+.tierWinners {
+  font-size: var(--font-size-base);
+  font-weight: 600;
+  color: var(--color-text-primary);
+}
+
+.tierPrize {
+  font-size: var(--font-size-2xl);
+  font-weight: 800;
+  letter-spacing: -0.02em;
+}
+
+/* --- Verification Grid --- */
+.verificationGrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+  gap: var(--space-6);
+  margin-top: var(--space-6);
+}
+
+.verCard {
+  display: flex;
+  flex-direction: column;
+}
+
+.verTierRow {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.proofImg {
+  width: 100%;
+  border-radius: var(--radius-md);
+  max-height: 180px;
+  object-fit: cover;
+}
+
+/* --- Responsive --- */
+@media (max-width: 768px) {
+  .layout { flex-direction: column; }
+
+  .sidebar {
+    width: 100%;
+    height: auto;
+    position: static;
+    padding: var(--space-4);
+    overflow-x: auto;
+  }
+
+  .nav {
+    flex-direction: row;
+    gap: var(--space-1);
+    overflow-x: auto;
+    margin-top: 0;
+  }
+
+  .navBtn { white-space: nowrap; padding: var(--space-2) var(--space-3); }
+  .main { padding: var(--space-4); }
+}

@@ -1,0 +1,142 @@
+.page {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  background: var(--color-bg);
+  position: relative;
+  overflow: hidden;
+}
+
+.bgGlow {
+  position: fixed;
+  top: -200px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 600px;
+  height: 600px;
+  background: radial-gradient(circle, rgba(214, 93, 65, 0.1) 0%, transparent 70%);
+  pointer-events: none;
+}
+
+.header {
+  padding: var(--space-6) var(--space-8);
+}
+
+.logo {
+  font-size: var(--font-size-xl);
+  font-weight: 800;
+  letter-spacing: -0.02em;
+  color: var(--color-text-primary);
+  text-decoration: none;
+}
+
+.logoAccent {
+  color: var(--color-terracotta);
+}
+
+.container {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: var(--space-8);
+}
+
+.card {
+  width: 100%;
+  max-width: 440px;
+  background: var(--color-surface);
+  border: 1px solid var(--color-border-strong);
+  border-radius: var(--radius-2xl);
+  padding: var(--space-10);
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-6);
+  box-shadow: var(--shadow-xl);
+  animation: slideUp 0.4s ease;
+}
+
+.cardHeader {
+  text-align: center;
+}
+
+.title {
+  font-size: var(--font-size-3xl);
+  font-weight: 800;
+  letter-spacing: -0.03em;
+  margin-bottom: var(--space-2);
+}
+
+.subtitle {
+  font-size: var(--font-size-base);
+  color: var(--color-text-muted);
+}
+
+.quickLogin {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-3);
+}
+
+.quickLabel {
+  font-size: var(--font-size-xs);
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--color-text-muted);
+  text-align: center;
+}
+
+.quickBtns {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: var(--space-3);
+}
+
+.quickBtn {
+  justify-content: center;
+  gap: var(--space-2);
+}
+
+.quickIcon {
+  font-size: 1rem;
+}
+
+.dividerRow {
+  display: flex;
+  align-items: center;
+  gap: var(--space-3);
+}
+
+.dividerLine {
+  flex: 1;
+  border: none;
+  border-top: 1px solid var(--color-border);
+}
+
+.dividerText {
+  font-size: var(--font-size-xs);
+  color: var(--color-text-muted);
+  white-space: nowrap;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-4);
+}
+
+.signupLink {
+  text-align: center;
+  font-size: var(--font-size-sm);
+  color: var(--color-text-muted);
+}
+
+.signupLink a {
+  color: var(--color-terracotta);
+  font-weight: 600;
+}
+
+@media (max-width: 480px) {
+  .card { padding: var(--space-8); }
+}
